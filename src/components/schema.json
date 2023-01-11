@@ -1,0 +1,32 @@
+{
+  "title": "Personal blog",
+  "description": "Brief description about blog content",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "title": "Title",
+      "maxLength": 5,
+      "ui:disabled": true
+    },
+    "description": {
+      "type": "string",
+      "title": "Description",
+      "maxLength": 200
+    },
+    "author": {
+      "type": "string",
+      "title": "Author",
+      "minLength": 10,
+      "ui:disabled": true
+    },
+    "thumbnail": {
+        "type": "string",
+        "title": "Thumbnail"
+    },
+    "avatar": {
+        "type": "string",
+        "title": "Author"
+    }
+  }
+}
